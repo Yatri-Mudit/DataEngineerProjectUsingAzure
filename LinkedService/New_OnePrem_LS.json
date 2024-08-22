@@ -1,0 +1,16 @@
+{
+	"name": "New_OnePrem_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-BI8VO1O\\SQLEXPRESS;initial catalog=AdventureWorksLT2017;user id=gr",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYzkwZWU4OC0yMDM0LTRiNjUtYmU0Ny05M2NmYTEyZTM5NGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "connection-to-On-Prem-DB",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
