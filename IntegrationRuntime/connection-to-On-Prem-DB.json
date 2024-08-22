@@ -1,0 +1,6 @@
+{
+	"name": "connection-to-On-Prem-DB",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
